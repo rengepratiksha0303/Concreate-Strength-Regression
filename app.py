@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load trained model
-model = joblib.load("model.pkl")
+model = joblib.load("xgbregressor_model.pkl")
 
 st.set_page_config(page_title="Concrete Strength Prediction", layout="centered")
 
